@@ -1,0 +1,40 @@
+{
+  "0" : {
+    "domainType": "signature",
+    "name": "xx64",
+    "description": "xxHash is an extremely fast non-cryptographic hash algorithm, working at speeds close to RAM limits. This in the 64 bit flavor.",
+    "source": "https://cyan4973.github.io/xxHash",
+    "idFormat": "fixed",
+    "idBits" : 64,
+    "defaultEncoding": "base62",
+    "hashSeed" : "0xDFF9CDFE"
+  },
+  "1" : {
+    "domainType": "signature",
+    "name": "xx32",
+    "description": "xxHash is an extremely fast non-cryptographic hash algorithm, working at speeds close to RAM limits. This in the 32 bit flavor.",
+    "source": "https://cyan4973.github.io/xxHash",
+    "idFormat": "fixed",
+    "idBits" : 32,
+    "defaultEncoding": "base62",
+    "hashSeed" : "0xDFF9CDFE"
+  },
+  "2" : {
+    "domainType": "signature",
+    "name": "ripemd160",
+    "description": "RIPEMD (RACE Integrity Primitives Evaluation Message Digest) is a family of cryptographic hash functions developed in Leuven, Belgium, by Hans Dobbertin, Antoon Bosselaers and Bart Preneel. RIPEMD-160 is an improved, 160-bit version of the original RIPEMD, and the most common version in the family",
+    "source" : "https://homes.esat.kuleuven.be/~bosselae/ripemd160.html",
+    "idFormat": "fixed",
+    "idBits" : 160,
+    "defaultEncoding": "base62"
+  },
+  "3" : {
+    "domainType": "signature",
+    "name": "sha256",
+    "description" : "The Secure Hash Algorithm is a family of cryptographic hash functions published by the National Institute of Standards and Technology (NIST) as a U.S. Federal Information Processing Standard (FIPS), SHA-2 is a family of two similar hash functions, with different block sizes, known as SHA-256 and SHA-512. They differ in the word size; SHA-256 uses 32-bit words where SHA-512 uses 64-bit words.",
+    "source" : "http://csrc.nist.gov/groups/STM/cavp/documents/shs/sha256-384-512.pdf",
+    "idFormat": "fixed",
+    "idBits" : 256,
+    "defaultEncoding": "base62"
+  }
+}

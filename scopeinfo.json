@@ -1,0 +1,50 @@
+{
+  "0": {
+    "name": "Untyped",
+    "description": "This scope is for use with untyped presumed global identitfiers",
+    "visibility" : "public",
+    "domainInfo": {
+      "locations" : [],
+      "format": "fixed",
+      "idbits" : 0
+    },
+    "format": "fixed"
+  },
+  "1": {
+    "name": "Global Hash",
+    "description": "This scope is for use with untyped presumed global hashes",
+    "visibility" : "public",
+    "domainInfo": {
+      "locations": [{
+        "resolver": "file",
+        "locator": "./domaininfo-2.json",
+        "encoding": "json"
+        }, {
+        "resolver": "github",
+        "locator": "https://github.com/distributed-vision/domain-scope/raw/master/domaininfo-2.json",
+        "encoding": "json"
+      }],
+      "format": "fixed",
+      "idbits" : 8
+    },
+    "format": "fixed"
+  },
+  "l": {
+    "description": "Local named scope",
+    "visibility" : "local",
+    "domainInfo": {},
+    "format": "lv"
+  },
+  "p": {
+    "description": "Private named scope",
+    "visibility" : "private",
+    "domainInfo": {},
+    "format": "lv"
+  },
+  "P": {
+    "description": "Public named scope",
+    "visibility" : "public",
+    "domainInfo": {},
+    "format": "lv"
+  }
+}
